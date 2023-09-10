@@ -26,8 +26,8 @@ class ProjectOneAPIView(APIView):
             "current_day": current_day,
             "utc_time": utc_time,
             "track": track,
-            "github_file_url": "https://github.com/denscholar/HngX_stage_one_task/tree/main",
-            "github_repo_url": "https://github.com/denscholar/HngX_stage_one_task.git",
+            "github_file_url": "https://github.com/denscholar/hngxstageone/tree/main",
+            "github_repo_url": "https://github.com/denscholar/hngxstageone.git",
             "status_code": 200,
         }
 
