@@ -35,5 +35,4 @@ class ProjectOneAPIView(APIView):
         data_instance = ProjectOne(**data)
 
         serializer = ProjectOneSerializer(instance=data_instance)
-        response = {"data": serializer.data}
-        return Response(data=response, status=status.HTTP_200_OK)
+        return Response(data=serializer.data, status=status.HTTP_200_OK)
